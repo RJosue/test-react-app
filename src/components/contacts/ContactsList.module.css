@@ -1,0 +1,36 @@
+.card {
+	margin: 5rem auto;
+	padding: 1.5%;
+	width: 20rem;
+     height: 4.5rem;
+	margin: 2rem 0;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	background-color: #ffffff;
+	border-radius: 10px;
+}
+
+.logo img {
+	width: 20%;
+	margin-left: 2%;
+	border-radius: 50%;
+	object-fit: cover;
+	float: left;
+}
+
+.name {
+	margin-top: 1%;
+	font-size: 1.2rem;
+}
+
+.description {
+	margin-top: 4%;
+	font-style: oblique;
+	font-size: 0.8rem;
+}
+
+.content {
+     text-align: center;
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+}
