@@ -8,7 +8,7 @@ const MainPage = () => {
 
 	return (
 		<>
-			<h1>Main Page</h1>
+			<h1 className='centered'>Main Page</h1>
 			<div className='centered' data-testid='btn-task'>
 				<button className='btn-block' onClick={handlerRedirect.bind(null, '/task')}>
 					<label>Task</label>
